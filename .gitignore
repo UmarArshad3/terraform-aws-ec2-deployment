@@ -1,0 +1,18 @@
+# Terraform working files
+.terraform/
+
+# Terraform state and backups
+*.tfstate
+*.tfstate.*
+terraform.tfstate
+terraform.tfstate.backup
+
+# Private keys and secrets
+*.pem
+*.key
+*.secret
+.env
+
+# Terraform crash logs
+crash.log
+crash.*.log
