@@ -64,3 +64,14 @@ When the environment is no longer needed, review the resources and use `terrafor
 The infrastructure is provisioned using Terraform. An AWS EC2 instance runs Ubuntu 24.04 with Apache, while a security group controls inbound HTTP and SSH access.
 
 ![AWS EC2 Terraform Architecture](docs/architecture.png)
+## Screenshots
+
+### Website Running
+![Website running on AWS EC2](docs/screenshots/live-website.png)
+
+### Terraform Output
+![Terraform output showing deployed infrastructure](docs/screenshots/terraform-output.png)
+
+### AWS EC2 Instance
+![AWS EC2 instance details](docs/screenshots/terraform-running.png)
+
