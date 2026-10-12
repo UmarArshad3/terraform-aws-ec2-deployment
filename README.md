@@ -59,3 +59,8 @@ When the environment is no longer needed, review the resources and use `terrafor
 [View the project on GitHub](https://github.com/UmarArshad3/terraform-aws-ec2-deployment)
 
 *This is a learning and portfolio project. Resource availability, AWS charges, and configuration requirements may vary by account and region.*
+## Architecture
+
+The infrastructure is provisioned using Terraform. An AWS EC2 instance runs Ubuntu 24.04 with Apache, while a security group controls inbound HTTP and SSH access.
+
+![AWS EC2 Terraform Architecture](docs/architecture.png)
